@@ -1,0 +1,20 @@
+To get the `vite.svg` file to work with the rest of your code, you need to ensure that the file is correctly placed in the `client/public` directory and that the path to the file is correct in your HTML code.
+
+Here is a step-by-step guide:
+
+1. **Ensure the file is in the correct directory**: Make sure that `vite.svg` is located in the `client/public` directory.
+
+2. **Check the file path in your HTML**: The path to the `vite.svg` file should be relative to the location of your HTML file. Since your HTML file is also in the `client/public` directory, the path `/vite.svg` should be correct.
+
+3. **Run your development server**: If you are using Vite, make sure to run your development server using the command:
+    ```sh
+    npm run dev
+    ```
+    or
+    ```sh
+    yarn dev
+    ```
+
+4. **Access your application**: Open your browser and navigate to the URL provided by the Vite development server (usually `http://localhost:3000`).
+
+Your HTML file should now correctly display the Vite logo if everything is set up properly. If you still encounter issues, make sure to check the browser console for any errors and verify that the `vite.svg` file is not missing or corrupted.
