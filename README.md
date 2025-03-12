@@ -2,7 +2,7 @@
 adding authentication with JSON Web Tokens
 
 ## Description
-A Kanban board with authentication to JSON Web Tokens. (Note: The svg files are giving me issues, may resubmit after discussion.)
+A Kanban board with authentication to JSON Web Tokens. 
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,7 +15,7 @@ A Kanban board with authentication to JSON Web Tokens. (Note: The svg files are 
 
 
 ## Installation
-npm run dev
+npm run dev on client.
 
 ## Usage
 Creates tickets.
@@ -28,7 +28,7 @@ This project has no license.
 Contributed meat of project.
 
 ## Tests
-Ran about 5 tests on svg files.
+Ran about 7 tests.
 
 ## Questions
 If you have any questions, feel free to reach out:

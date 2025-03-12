@@ -4,6 +4,7 @@ import jwt from 'jsonwebtoken';
 import bcrypt from 'bcrypt';
 
 export const login = async (req: Request, res: Response) => {
+  console.log(req.body)
   // TODO: If the user exists and the password is correct, return a JWT token
   const { username, password } = req.body;
 
